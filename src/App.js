@@ -182,17 +182,6 @@ function App() {
     "#8b5cf6",
     "#06b6d4"
   ];
-  const [categories, setCategories] = useState([
-  "Food",
-  "Transport",
-  "Bills",
-  "Shopping",
-  "Entertainment",
-  "Other"
-]);
-
-const [newCategory, setNewCategory] =
-  useState("");
 
   return (
     <div className="container">
